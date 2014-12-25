@@ -51,7 +51,7 @@ $result = mysqli_query($link, $query);
         <td><?php echo $row['last_name']?></td>
         <td>
              <a href="view.php?id=<?php echo $row['id']?>">View/Show</a> |
-                <a href="#">Edit</a> |
+                <a href="edit.php?id=<?php echo $row['id']?>">Edit</a> |
 
                 <a href="delete.php?id=<?php echo $row['id']?>">Delete</a> |
                 <a href="softdelete.php?id=<?php echo $row['id']?>">Soft Delete</a>
